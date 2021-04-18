@@ -1,15 +1,15 @@
 <template>
   <div class="about">
-    <about profile="This is my profile"/>
+    <about msg="555555"/>
   </div>
-</template>
 
+</template>
 
 <script>
 import About from '@/components/About.vue'
 
 export default {
-  name: 'Home',
+  name: 'about',
   components: {
     About
   }
